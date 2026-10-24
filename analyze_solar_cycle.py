@@ -9,7 +9,7 @@ data = pd.read_csv('monssn.txt', sep=r'\s+', names=columns)
 # 2. Combine Year and Month into a clean timeline column
 data['Date'] = pd.to_datetime(data['Year'].astype(str) + '-' + data['Month'].astype(str) + '-01')
 
-# 3. Calculate a 13-month rolling average to smooth out the noise (standard solar physics method)
+# 3. Calculate a 13-month rolling average to smooth out the noise
 data['Smoothed_Sunspots'] = data['Sunspot_Number'].rolling(window=13, center=True).mean()
 
 # 4. Generate the scientific visualization plot
