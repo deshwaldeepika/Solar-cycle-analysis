@@ -17,4 +17,11 @@ This project uses Python to ingest, clean, and visualize over 250 years of solar
 2. Ensure dependencies are installed: `pip install pandas matplotlib`
 3. Execute the script: `python analyze_solar_cycle.py`
 
+## Data Acknowledgments
+The dataset (`monssn.txt`) used in this analysis is provided courtesy of the **World Data Center for the Sunspot Index and Long-term Solar Observations (WDC-SILSO)**, hosted at the Royal Observatory of Belgium, Brussels.
+
+* **Dataset:** International Sunspot Number V2.0 (Monthly Mean Numbers)
+* **License:** CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial)
+* **Official Source:** [WDC-SILSO Data Center](https://www.sidc.be/SILSO/datafiles "SILSO sunspot data download")
+* **Citation:** *Source: WDC-SILSO, Royal Observatory of Belgium, Brussels, DOI: 10.24414/qnza-ac80*
 
