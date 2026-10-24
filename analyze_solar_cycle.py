@@ -17,7 +17,7 @@ plt.figure(figsize=(12, 6))
 plt.plot(data['Date'], data['Sunspot_Number'], label='Monthly Mean Sunspot Number', color='orange', alpha=0.5)
 plt.plot(data['Date'], data['Smoothed_Sunspots'], label='13-Month Smoothed Cycle', color='red', linewidth=2)
 
-# 5. Format the chart professionally for your portfolio
+# 5. Format the chart
 plt.title('Historical Solar Activity Cycles (1749 - Present)', fontsize=14, fontweight='bold')
 plt.xlabel('Year', fontsize=12)
 plt.ylabel('Sunspot Count', fontsize=12)
