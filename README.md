@@ -15,3 +15,4 @@ This project uses Python to ingest, clean, and visualize over 250 years of solar
 2. Ensure dependencies are installed: `pip install pandas matplotlib`
 3. Execute the script: `python analyze_solar_cycle.py`
 
+**Key Insight:** The visualization clearly highlights the distinct ~11-year cyclical nature of solar activity. By applying a 13-month centered rolling average, we smooth out the transient daily space weather noise to reveal the underlying peaks and troughs of historical solar cycles.
